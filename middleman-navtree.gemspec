@@ -5,7 +5,7 @@ require 'date'
 
 Gem::Specification.new do |s|
   s.name        = "middleman-navtree"
-  s.version     = "0.1.10"
+  s.version     = "0.1.11"
   s.licenses    = ['MIT']
   s.date        = Date.today.to_s
 
@@ -25,4 +25,5 @@ Gem::Specification.new do |s|
   # The version of middleman-core this extension depends on.
   s.add_runtime_dependency("middleman-core", [">= 3.3"])
   s.add_runtime_dependency("titleize", ["~> 1.3"])
+  s.add_runtime_dependency("i18n", ["~> 0.7.0"])
 end
